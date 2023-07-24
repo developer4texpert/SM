@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SMSuite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="SMTest">
+		<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="Master" />
+				<!-- <include name="Sanity"/> <include name="Regression"/> -->
+
+				<!-- <exclude name="Master"/> <exclude name="Sanity"/> <exclude name="Regression"/> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.TC_001_UserLoginWithValidCredentials" />
+			<class name="testCases.TC_002_UserLoginWithInvalidCredentials" />
+			<class name="testCases.TC004_SearchByConsultant" />
+			<class name="testCases.TC_005_SearchBySkill" />
+		</classes>
+	</test> <!-- SMTest -->
+</suite> <!-- SMSuite -->

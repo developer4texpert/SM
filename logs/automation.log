@@ -1,0 +1,146 @@
+03:06:40.341 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+03:06:40.571 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+03:06:40.727 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+03:06:40.826 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+03:06:45.149 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+03:06:45.149 [main] INFO  testCases.LoginTestCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+00:16:51.864 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:16:52.090 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:16:52.207 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:16:52.294 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:17:10.918 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+00:17:11.066 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+00:17:11.207 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+00:17:11.292 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+00:20:44.067 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:20:44.290 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:20:44.393 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:20:44.476 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:20:51.189 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+00:20:51.189 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+00:20:58.075 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+00:20:58.201 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+00:20:58.313 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+00:20:58.422 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:06:18.241 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:06:18.492 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:06:18.564 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:06:18.884 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:06:18.897 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:06:19.356 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:06:19.621 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:06:19.844 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:06:20.338 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:06:20.768 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:06:21.025 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:06:21.698 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:06:40.080 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:06:40.441 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:06:40.660 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:06:40.823 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:06:42.298 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:06:42.658 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:06:42.930 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:06:43.236 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:06:43.258 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:06:43.428 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:06:43.514 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:06:43.830 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:06:47.503 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:06:47.503 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+01:06:48.163 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:06:48.163 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+01:06:48.721 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:06:48.722 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+01:07:46.187 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:07:46.518 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:07:46.884 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:07:46.947 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:07:47.224 [TestNG-tests-1] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:07:47.327 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:07:47.567 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:07:48.506 [TestNG-tests-2] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:07:50.757 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+01:07:50.935 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+01:07:51.001 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+01:07:51.285 [TestNG-tests-3] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+01:07:57.648 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:07:57.886 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:07:58.078 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:07:58.235 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:08:00.318 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:08:00.618 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:08:00.863 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:08:01.017 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:08:04.007 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:08:04.007 [TestNG-tests-1] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+01:08:05.148 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:08:05.149 [TestNG-tests-2] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+01:08:05.883 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+01:08:06.002 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+01:08:06.037 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+01:08:06.292 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+01:08:08.979 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+01:08:08.979 [TestNG-tests-3] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+00:43:07.886 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:43:08.044 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:43:08.158 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:43:08.247 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:43:27.651 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+00:43:27.771 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+00:43:27.865 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+00:43:27.951 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+00:45:41.393 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:45:41.564 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:45:41.654 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:45:41.735 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:45:49.452 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+00:45:49.452 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+00:45:59.939 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - *****Starting TC_001_UserLoginWithInValidCredentials*********
+00:46:00.065 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Address
+00:46:00.176 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Entered User Email Password
+00:46:00.252 [main] INFO  testCases.TC_002_UserLoginWithInvalidCredentials - Clicked on Login Button
+23:23:04.116 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:23:14.963 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:23:16.773 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:23:18.672 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:23:49.732 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:23:54.563 [main] INFO  testCases.TC_003_DDTLogin - **** Finished TC_003_DDTLogin******
+23:23:54.588 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+23:24:05.362 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:26:56.679 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:27:07.862 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:27:10.058 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:27:12.096 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:30:50.731 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:30:55.756 [main] INFO  testCases.TC_003_DDTLogin - **** Finished TC_003_DDTLogin******
+00:30:55.788 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:31:06.659 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:38:36.939 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:38:53.186 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:39:03.440 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:39:13.758 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:40:49.278 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:41:04.733 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:41:15.583 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:41:26.430 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:43:23.625 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:43:39.800 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:43:50.681 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:44:01.425 [main] INFO  testCases.TC_003_DDTLogin - *****Starting TC_001_UserLoginWithValidCredentials*********
+02:26:31.214 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+02:26:31.435 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+02:26:31.562 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+02:26:31.657 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+02:26:36.975 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+02:26:36.975 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******
+00:53:54.443 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:53:54.625 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:53:54.713 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:53:54.790 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:58:49.188 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - *****Starting TC_001_UserLoginWithValidCredentials*********
+00:58:49.336 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Address
+00:58:49.428 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Entered User Email Password
+00:58:49.498 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Clicked on Login Button
+00:58:55.551 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - Performing Validation
+00:58:55.552 [main] INFO  testCases.TC_001_UserLoginWithValidCredentials - ******Completed TC_001_UserLoginWithValidCredentials*******

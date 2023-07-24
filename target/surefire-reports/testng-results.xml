@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T01:24:58 IST" name="SMSuite" finished-at="2023-07-22T01:25:39 IST" duration-ms="41088">
+    <groups>
+      <group name="Master">
+        <method signature="TC004_SearchByConsultant.verifySearchWithValidConsultant()[pri:0, instance:testCases.TC004_SearchByConsultant@6c284af]" name="verifySearchWithValidConsultant" class="testCases.TC004_SearchByConsultant"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC004_SearchByConsultant.verifySearchWithValidConsultant()[pri:0, instance:testCases.TC004_SearchByConsultant@6c284af]" name="verifySearchWithValidConsultant" class="testCases.TC004_SearchByConsultant"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-07-22T01:24:58 IST" name="SMTest" finished-at="2023-07-22T01:25:39 IST" duration-ms="41088">
+      <class name="testCases.TC_005_SearchBySkill">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_SearchBySkill@451001e5]" started-at="2023-07-22T01:25:20 IST" name="setup" finished-at="2023-07-22T01:25:29 IST" duration-ms="9417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidSkill()[pri:0, instance:testCases.TC_005_SearchBySkill@451001e5]" started-at="2023-07-22T01:25:29 IST" name="verifySearchWithValidSkill" finished-at="2023-07-22T01:25:38 IST" duration-ms="8714" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Business Analyst] but found [Lead .Net Developer]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Business Analyst] but found [Lead .Net Developer]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testCases.TC_005_SearchBySkill.verifySearchWithValidSkill(TC_005_SearchBySkill.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidSkill -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_005_SearchBySkill@451001e5]" started-at="2023-07-22T01:25:39 IST" name="teardown" finished-at="2023-07-22T01:25:39 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_005_SearchBySkill -->
+      <class name="testCases.TC004_SearchByConsultant">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC004_SearchByConsultant@6c284af]" started-at="2023-07-22T01:24:58 IST" name="setup" finished-at="2023-07-22T01:25:12 IST" duration-ms="13550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidConsultant()[pri:0, instance:testCases.TC004_SearchByConsultant@6c284af]" started-at="2023-07-22T01:25:12 IST" name="verifySearchWithValidConsultant" finished-at="2023-07-22T01:25:20 IST" duration-ms="7744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidConsultant -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC004_SearchByConsultant@6c284af]" started-at="2023-07-22T01:25:20 IST" name="teardown" finished-at="2023-07-22T01:25:20 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC004_SearchByConsultant -->
+    </test> <!-- SMTest -->
+  </suite> <!-- SMSuite -->
+</testng-results>
