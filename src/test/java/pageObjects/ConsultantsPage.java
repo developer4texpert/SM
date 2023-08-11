@@ -19,10 +19,14 @@ public class ConsultantsPage extends BasePage{
 	private WebElement searchButton;
 	
 	@FindBy(xpath="(//tbody[@class='p-element p-datatable-tbody']//td[@title='Hasini Amara']//span)[1]")
-	WebElement consultantSearchResult;
+	private WebElement consultantSearchResult;
 	
 	@FindBy(xpath="(//tbody[@class='p-element p-datatable-tbody']//td)[2]//span")
-	WebElement skillSearchResult;
+	private WebElement skillSearchResult;
+	
+	@FindBy(xpath="//span[normalize-space()='INSERT CONSULTANT']")
+	private WebElement insertConsultantButton;
+	
 	
 	
 	// Action Methods
@@ -46,5 +50,10 @@ public class ConsultantsPage extends BasePage{
 	{
 		String skillText=skillSearchResult.getText();
 		return skillText;
+	}
+	
+	public void clickOnInsertConsultant()
+	{
+		insertConsultantButton.click();
 	}
 }

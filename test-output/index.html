@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SMSuite" class="navigator-link">
-              <span class="suite-name border-failed">SMSuite</span>
+              <span class="suite-name border-passed">SMSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-SMSuite" class="navigator-link ">
-                    <span>C:\Workspace\SM\grouping.xml</span>
+                    <span>C:\Workspace\SM\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-SMSuite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-SMSuite" class="hide-methods failed suite-SMSuite"> (hide)</a> <!-- hide-methods failed suite-SMSuite -->
-                      <a href="#" panel-name="suite-SMSuite" class="show-methods failed suite-SMSuite"> (show)</a> <!-- show-methods failed suite-SMSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-SMSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SMSuite" title="testCases.TC004_SearchByConsultant" class="method navigator-link" hash-for-method="verifySearchWithValidConsultant">verifySearchWithValidConsultant</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-SMSuite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,7 +104,7 @@
                     <div class="method-list-content passed suite-SMSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SMSuite" title="testCases.TC_001_UserLoginWithValidCredentials" class="method navigator-link" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SMSuite" title="testCases.TC_008_UpdateStatus" class="method navigator-link" hash-for-method="VerifyStatusUpdate">VerifyStatusUpdate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SMSuite -->
@@ -133,58 +119,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SMSuite" class="panel SMSuite">
-          <div class="suite-SMSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC004_SearchByConsultant</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySearchWithValidConsultant">
-                  </a> <!-- verifySearchWithValidConsultant -->
-                  <span class="method-name">verifySearchWithValidConsultant</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bcee3679f55280df439e8d3136f7ab47, getElementText {id=43D8B795A35C942D08D808B8068F79C4_element_46}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\naresh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64478/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (bcee3679f55280df439e8d3136f7ab47)] -&gt; xpath: (//tbody[@class=&apos;p-element p-datatable-tbody&apos;]//td[@title=&apos;Hasini Amara&apos;]//span)[1]]
-Session ID: bcee3679f55280df439e8d3136f7ab47
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy50.getText(Unknown Source)
-	at pageObjects.ConsultantsPage.retrieveConsultantSearchResult(ConsultantsPage.java:41)
-	at testCases.TC004_SearchByConsultant.verifySearchWithValidConsultant(TC004_SearchByConsultant.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SMSuite-class-failed -->
           <div class="suite-SMSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_001_UserLoginWithValidCredentials</span>
+              <span class="class-name">testCases.TC_008_UpdateStatus</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginWithValidCredentials">
-                  </a> <!-- loginWithValidCredentials -->
-                  <span class="method-name">loginWithValidCredentials</span>
+                  <a name="VerifyStatusUpdate">
+                  </a> <!-- VerifyStatusUpdate -->
+                  <span class="method-name">VerifyStatusUpdate</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,7 +137,7 @@ Session ID: bcee3679f55280df439e8d3136f7ab47
         </div> <!-- panel SMSuite -->
         <div panel-name="test-xml-SMSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Workspace\SM\grouping.xml</span>
+            <span class="header-content">C:\Workspace\SM\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -204,16 +149,8 @@ Session ID: bcee3679f55280df439e8d3136f7ab47
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SMTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;Master&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_001_UserLoginWithValidCredentials&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_002_UserLoginWithInvalidCredentials&quot;/&gt;
-      &lt;class name=&quot;testCases.TC004_SearchByConsultant&quot;/&gt;
-      &lt;class name=&quot;testCases.TC_005_SearchBySkill&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_008_UpdateStatus&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SMTest --&gt;
 &lt;/suite&gt; &lt;!-- SMSuite --&gt;
@@ -227,7 +164,7 @@ Session ID: bcee3679f55280df439e8d3136f7ab47
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SMTest (4 classes)</span>
+                <span class="test-name">SMTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,34 +174,6 @@ Session ID: bcee3679f55280df439e8d3136f7ab47
             <span class="header-content">Groups for SMSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">Master</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">loginWithValidCredentials</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">verifySearchWithValidConsultant</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">verifySearchWithValidConsultant</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">Sanity</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">loginWithValidCredentials</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-SMSuite" class="panel">
@@ -281,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginWithValidCredentials')
-data.setCell(0, 2, 'testCases.TC_001_UserLoginWithValidCredentials')
-data.setCell(0, 3, 6374);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySearchWithValidConsultant')
-data.setCell(1, 2, 'testCases.TC004_SearchByConsultant')
-data.setCell(1, 3, 5819);
+data.setCell(0, 1, 'VerifyStatusUpdate')
+data.setCell(0, 2, 'testCases.TC_008_UpdateStatus')
+data.setCell(0, 3, 14362);
 window.suiteTableData['SMSuite']= { tableData: data, tableDiv: 'times-div-SMSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-SMSuite">
               </div> <!-- times-div-SMSuite -->
             </div> <!-- times-div -->
@@ -309,23 +214,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SMSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_005_SearchBySkill</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifySearchWithValidSkill</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC_002_UserLoginWithInvalidCredentials</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginWithInvalidCredentials</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-SMSuite" class="panel">
@@ -334,35 +225,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_001_UserLoginWithValidCredentials</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_008_UpdateStatus</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginWithValidCredentials</span>
-                <span class="method-start">9762 ms</span>
+                <span class="method-name">VerifyStatusUpdate</span>
+                <span class="method-start">12796 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">16161 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC004_SearchByConsultant</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
-                <span class="method-start">16962 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifySearchWithValidConsultant</span>
-                <span class="method-start">25568 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">31660 ms</span>
+                <span class="method-start">27191 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

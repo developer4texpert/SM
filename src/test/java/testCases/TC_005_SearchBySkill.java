@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_005_SearchBySkill extends BaseClass{
 
 	@Test
-	public void verifySearchWithValidSkill()
+	public void verifySearchWithValidSkill() throws InterruptedException
 	{
 		LoginPage loginpage=new LoginPage(driver);
 		loginpage.enterEmailAddress(rb.getString("email"));
@@ -26,7 +26,9 @@ public class TC_005_SearchBySkill extends BaseClass{
 		consultantpage.consultantOrSkillSearchButton();
 		
 		String actualSkillName=consultantpage.retrieveSkillSearchResult();
+		Thread.sleep(2000);
 		String expectedSkillName="Business Analyst";
+		
 		Assert.assertEquals(actualSkillName,expectedSkillName);
 		
 		

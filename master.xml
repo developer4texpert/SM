@@ -8,9 +8,12 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<!-- <class name="testCases.TC_001_UserLoginWithValidCredentials" /> <class 
-				name="testCases.TC_002_UserLoginWithInvalidCredentials" /> -->
+				name="testCases.TC_002_UserLoginWithInvalidCredentials" /> 
 			<class name="testCases.TC004_SearchByConsultant" />
 			<class name="testCases.TC_005_SearchBySkill" />	
+			<class name="testCases.TC_006_AddConsultantWithMandatoryFields"/> 
+			<class name="testCases.TC_007_AddInterviewWithAllFields"/> -->
+			<class name="testCases.TC_008_UpdateStatus"/>
 		</classes>
 	</test> <!-- SMTest -->
 </suite> <!-- SMSuite -->

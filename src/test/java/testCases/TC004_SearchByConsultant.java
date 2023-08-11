@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC004_SearchByConsultant extends BaseClass{
 
 	@Test(groups={"Regression","Master"})
-	public void verifySearchWithValidConsultant()
+	public void verifySearchWithValidConsultant() throws InterruptedException
 	{
 		LoginPage loginpage=new LoginPage(driver);
 		loginpage.enterEmailAddress(rb.getString("email"));
@@ -27,6 +27,7 @@ public class TC004_SearchByConsultant extends BaseClass{
 		
 		String actualConsultantName=consultantpage.retrieveConsultantSearchResult();
 		String expectedConsultantName="Hasini Amara";
+		
 		Assert.assertEquals(actualConsultantName,expectedConsultantName);	
 	}
 }

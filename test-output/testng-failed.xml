@@ -6,19 +6,14 @@
   </listeners>
   <test thread-count="5" name="SMTest(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCases.TC004_SearchByConsultant">
+      <class name="testCases.TC_008_UpdateStatus">
         <methods>
           <include name="teardown"/>
+          <include name="VerifyStatusUpdate"/>
           <include name="setup"/>
-          <include name="verifySearchWithValidConsultant"/>
         </methods>
-      </class> <!-- testCases.TC004_SearchByConsultant -->
+      </class> <!-- testCases.TC_008_UpdateStatus -->
     </classes>
   </test> <!-- SMTest(failed) -->
 </suite> <!-- Failed suite [SMSuite] -->

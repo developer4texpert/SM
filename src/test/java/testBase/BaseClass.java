@@ -1,5 +1,8 @@
 package testBase;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -83,6 +86,17 @@ public class BaseClass {
 			e.getMessage();
 		}
 		return destination;
+	}
+	
+	public void robotMethod() throws AWTException
+	{
+		Robot robot = new Robot();
+		for (int i = 0; i < 5; i++) {
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_SUBTRACT);
+			robot.keyRelease(KeyEvent.VK_SUBTRACT);
+			robot.keyRelease(KeyEvent.VK_CONTROL);
+		}
 	}
 	
 	
