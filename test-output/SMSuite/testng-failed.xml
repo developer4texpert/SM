@@ -7,13 +7,13 @@
   <test thread-count="5" name="SMTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_008_UpdateStatus">
+      <class name="testCases.TC_010_FilterByStatus">
         <methods>
           <include name="teardown"/>
-          <include name="VerifyStatusUpdate"/>
+          <include name="verifyFilterWithStatus"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_008_UpdateStatus -->
+      </class> <!-- testCases.TC_010_FilterByStatus -->
     </classes>
   </test> <!-- SMTest(failed) -->
 </suite> <!-- Failed suite [SMSuite] -->

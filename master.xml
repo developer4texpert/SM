@@ -10,10 +10,15 @@
 			<!-- <class name="testCases.TC_001_UserLoginWithValidCredentials" /> <class 
 				name="testCases.TC_002_UserLoginWithInvalidCredentials" /> 
 			<class name="testCases.TC004_SearchByConsultant" />
-			<class name="testCases.TC_005_SearchBySkill" />	
+			
 			<class name="testCases.TC_006_AddConsultantWithMandatoryFields"/> 
+			<class name="testCases.TC_008_UpdateStatus"/> 
+			<class name="testCases.TC_009_AddNewRound"/> 
+			<class name="testCases.TC_005_SearchBySkill" />	
 			<class name="testCases.TC_007_AddInterviewWithAllFields"/> -->
-			<class name="testCases.TC_008_UpdateStatus"/>
+			<class name="testCases.TC_010_FilterByStatus" />
+			
+			
 		</classes>
 	</test> <!-- SMTest -->
 </suite> <!-- SMSuite -->

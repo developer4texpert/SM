@@ -101,24 +101,23 @@ public class InterviewSchedulePage extends BasePage{
 	@FindBy(xpath="//div[@class='modal-body p-4']//span[contains(text(),'Schedule')]")
 	private WebElement scheduleButton;
 	
-	
-	
-	
-	
-	
-	
 	public void clickOnchooseConsultantDropDownButton(String consultant)
 	{
 		wait.until(ExpectedConditions.elementToBeClickable(chooseConsultantDropDownButton)).click();
-		for(WebElement selectConsultant:hotListConsultants)
+		for(WebElement consultants:hotListConsultants)
 		{
-			if(selectConsultant.getText().equals(consultant))
+			if(consultants.getText().equals(consultant))
 			{
-				selectConsultant.click();
+				consultants.click();
 				break;
 			}
 		}
+		
+		
 	}
+	
+	
+	
 	public void clickOnInterviewDateCalendarButton() {
 		wait.until(ExpectedConditions.elementToBeClickable(interviewDateCalendarButton)).click();	
 	}

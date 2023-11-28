@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -33,8 +34,8 @@ public class ExtentReportManager implements ITestListener {
 
 		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
 
-		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
-		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
+		sparkReporter.config().setDocumentTitle("Texperts Sales Module Automation Report"); // Title of report
+		sparkReporter.config().setReportName("Texperts Sales Functional Testing"); // name of the report
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
@@ -58,7 +59,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL, result.getThrowable().getMessage());
 
 		String imgPath = new BaseClass().captureScreen(result.getName());
-		test.addScreenCaptureFromPath(imgPath);
+		test.addScreenCaptureFromPath(imgPath,"gghghg");
 	}
 
 	public void onTestSkipped(ITestResult result) {

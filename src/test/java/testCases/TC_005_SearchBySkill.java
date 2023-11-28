@@ -27,7 +27,7 @@ public class TC_005_SearchBySkill extends BaseClass{
 		
 		String actualSkillName=consultantpage.retrieveSkillSearchResult();
 		Thread.sleep(2000);
-		String expectedSkillName="Business Analyst";
+		String expectedSkillName="usiness Analys";
 		
 		Assert.assertEquals(actualSkillName,expectedSkillName);
 		

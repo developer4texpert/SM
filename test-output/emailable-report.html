@@ -9,10 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">SMSuite</th></tr>
-<tr><td><a href="#t0">SMTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,620</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SMTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,196</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SMSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SMTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC_008_UpdateStatus</td><td><a href="#m0">VerifyStatusUpdate</a></td><td rowspan="1">1691617299796</td><td rowspan="1">14362</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SMSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SMTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC_010_FilterByStatus</td><td><a href="#m0">verifyFilterWithStatus</a></td><td rowspan="1">1693513233493</td><td rowspan="1">5951</td></tr></tbody>
 </table>
-<h2>SMTest</h2><h3 id="m0">testCases.TC_008_UpdateStatus#VerifyStatusUpdate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SMTest</h2><h3 id="m0">testCases.TC_010_FilterByStatus#verifyFilterWithStatus</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8d4133bd01a9b01b91cf80bf5d2e6f6, getElementText {id=CB54312D652412755BE0227ABD6980DE_element_75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\naresh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b8d4133bd01a9b01b91cf80bf5d2e6f6)] -&gt; xpath: //ul[@role=&apos;listbox&apos;]//li]
+Session ID: b8d4133bd01a9b01b91cf80bf5d2e6f6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at pageObjects.MarketerDashBoardPage.clickOnValueButton(MarketerDashBoardPage.java:148)
+	at testCases.TC_010_FilterByStatus.verifyFilterWithStatus(TC_010_FilterByStatus.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

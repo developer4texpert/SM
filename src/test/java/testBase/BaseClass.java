@@ -7,6 +7,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import org.apache.commons.io.FileUtils;
@@ -15,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -76,10 +78,11 @@ public class BaseClass {
 		
 		TakesScreenshot takesScreenshot=(TakesScreenshot)driver;
 		File source=takesScreenshot.getScreenshotAs(OutputType.FILE);
-		String destination=System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String destination=System.getProperty("user.dir") + "\\Screenshots\\" + tname + "_" + timeStamp + ".png";
+		File finalDestination=new File(destination);
 		try
 		{
-			FileUtils.copyFile(source,new File(destination));
+			FileUtils.copyFile(source,finalDestination);
 		}
 		catch(Exception e)
 		{
@@ -98,6 +101,8 @@ public class BaseClass {
 			robot.keyRelease(KeyEvent.VK_CONTROL);
 		}
 	}
+	
+	
 	
 	
 }
